@@ -22,7 +22,7 @@ def move_images(source_folder, destination_folder):
                 shutil.move(src_path, dest_path)
                 print(f"Moved: {src_path} → {dest_path}")
 
-source_dir = r"E:\New folder (2)"
-destination_dir = r"E:\New folder (3)"
+source_dir = r"F:\files\DCIM"
+destination_dir = r"F:\files\DCIM"
 
 move_images(source_dir, destination_dir)

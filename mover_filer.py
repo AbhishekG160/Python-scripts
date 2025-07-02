@@ -26,10 +26,13 @@ def merge_folders(source_folders, destination_folder):
                 print(f"Moved: {src_file} → {dest_file}")
 
 source_dirs = [
-    r"C:\Path\To\Folder1",
-    r"C:\Path\To\Folder2",
-    r"C:\Path\To\Folder3"
+    r"E:\New folder\#Yuru Camp △ Pictures, Images on pixiv, Japan",
+    r"E:\New folder\#2Yuru Camp △ Pictures, Comics on pixiv, Japan",
+    r"E:\New folder\girl, Yuru Camp △, Rin Shima ゆるキャン△アニメ２期＆劇場版おめでとう！！ - pixiv",
+    r"E:\New folder\#Yuru Camp △ - OmegaΩTest's illustrations - pixiv",
+    r"E:\New folder\#1Yuru Camp △ Pictures, Comics on pixiv, Japan",
+    r"E:\New folder\#Yuru Camp △ Pictures, Comics on pixiv, Japan"
 ]
 
-destination_dir = r"C:\Path\To\MergedFolder"
+destination_dir = r"E:\New folder\#Yuru Camp △ Pictures, Comics on pixiv, Japan"
 merge_folders(source_dirs, destination_dir)
