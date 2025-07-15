@@ -26,7 +26,7 @@ def merge_folders(source_folders, destination_folder):
                 print(f"Moved: {src_file} → {dest_file}")
 
 source_dirs = [
-    r"C:\Users\acer\Downloads\#Shuuko Komi Pictures, Images on pixiv, Japan"
+    r"C:\Users\acer\Downloads\k"
 ]
 
 destination_dir = r"C:\Users\acer\Downloads\AI-Generated"
